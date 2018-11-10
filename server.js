@@ -31,11 +31,11 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use((req, res, next) => {
-    res.render('maintenance.hbs', {
-        title: 'Oops'
-    });
-})
+// app.use((req, res, next) => {
+//     res.render('maintenance.hbs', {
+//         title: 'Oops'
+//     });
+// });
 
 app.get('/', (req, res) => {
     // res.send({
